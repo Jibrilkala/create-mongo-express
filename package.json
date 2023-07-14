@@ -1,0 +1,20 @@
+{
+  "name": "create-mongo-express",
+  "version": "1.0.0",
+  "description": "CLI tool to scaffold Express.js applications with MongoDB",
+  "bin": {
+    "create-mongo-express": "./cli.js"
+  },
+  "author": "Jibril Kala",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "child_process": "latest",
+    "fs-extra": "latest",
+    "inquirer": "latest",
+    "ora": "latest"
+  }
+}

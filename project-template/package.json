@@ -1,0 +1,35 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Scaffolded Express.js application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build script placeholder'"
+  },
+  "author": "Jibril Kala",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "latest",
+    "axios": "latest",
+    "bcrypt": "latest",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "date-fns": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsdom": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "multer": "latest",
+    "nodemailer": "latest",
+    "openai": "latest",
+    "puppeteer": "latest",
+    "socket.io": "latest",
+    "uuid": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
