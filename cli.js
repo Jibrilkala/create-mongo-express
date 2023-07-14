@@ -161,7 +161,6 @@ const generateProject = async () => {
         if (code === 0) {
           loadingSpinner.succeed('All dependancies installed');
           loadingSpinner.succeed('MongoDB connection established');
-
           loadingSpinner.succeed('All files and folders generated');
           loadingSpinner.succeed('Auth and Register routes generated');
           loadingSpinner.succeed('Express server built successfully');
