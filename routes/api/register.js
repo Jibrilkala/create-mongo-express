@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const registerController = require('../../project-template/controllers/registerController');
+const registerController = require('../../controllers/registerController');
 
 // @route   POST api/register
 
