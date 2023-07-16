@@ -22,7 +22,7 @@ Enter the project name (e.g., express-server):
 ## Connect MongoDB
 
 ```bash
-Enter the MongoDB URI: mongodb+srv://mongoDbUser:mongoDbUserPass@cluster0.s938843o0.mongodb.net/databaseName?retryWrites=true&w=majority
+Enter the MongoDB URI:
 ```
 
 Make sure your mongoDB URI is in the format below.
