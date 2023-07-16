@@ -1,0 +1,36 @@
+{
+  "name": "create-mongo-express",
+  "version": "1.1.1",
+  "description": "A command-line interface (CLI) tool to spin up an Express.js application with MongoDB.",
+  "bin": {
+    "create-mongo-express": "./cli.js"
+  },
+  "author": "Jibril Kala",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jibrilkala/create-mongo-express.git"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "express",
+    "mongodb",
+    "scaffold",
+    "generator",
+    "template",
+    "web",
+    "development",
+    "backend"
+  ],
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "child_process": "latest",
+    "fs-extra": "latest",
+    "inquirer": "latest",
+    "ora": "latest"
+  }
+}

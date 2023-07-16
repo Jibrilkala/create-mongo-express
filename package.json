@@ -1,9 +1,15 @@
 {
   "name": "create-mongo-express",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A command-line interface (CLI) tool to spin up an Express.js application with MongoDB.",
   "bin": {
-    "create-mongo-express": "./cli.js"
+    "create-mongo-express": "./bin/cli.js"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build script placeholder'"
   },
   "author": "Jibril Kala",
   "license": "MIT",
@@ -23,14 +29,30 @@
     "development",
     "backend"
   ],
-  "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
-  },
   "dependencies": {
-    "child_process": "latest",
-    "fs-extra": "latest",
-    "inquirer": "latest",
-    "ora": "latest"
+    "aws-sdk": "latest",
+    "axios": "latest",
+    "bcrypt": "latest",
+    "child_process": "^1.0.2",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "date-fns": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.8",
+    "jsdom": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "multer": "latest",
+    "nodemailer": "latest",
+    "openai": "latest",
+    "ora": "^6.3.1",
+    "puppeteer": "latest",
+    "socket.io": "latest",
+    "uuid": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
   }
 }
