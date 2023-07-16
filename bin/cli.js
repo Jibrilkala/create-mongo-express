@@ -37,6 +37,15 @@ try {
   if (npmInstall.status === 0) {
     clearInterval(loadingInterval);
     console.log('\nDependencies installed successfully.');
+
+    // Update the package.json with the project name
+    const packageJsonPath = path.join(process.cwd(), 'package.json');
+    const packageJsonContent = fs.readFileSync(packageJsonPath, 'utf8');
+    const packageJson = JSON.parse(packageJsonContent);
+
+    packageJson.name = projectName;
+
+    fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2));
   } else {
     clearInterval(loadingInterval);
     console.error('Failed to install dependencies:', npmInstall.error);
@@ -74,5 +83,7 @@ setTimeout(() => {
     fs.appendFileSync(envPath, `\nDATABASE_URI=${mongoURI}`);
 
     console.log('Project generated successfully.');
+    console.log(`cd to ${projectName}`);
+    console.log(`npm run dev`);
   });
 }, 3000);

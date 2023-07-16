@@ -22,9 +22,26 @@ Enter the project name (e.g., express-server):
 ## Connect MongoDB
 
 ```bash
-Enter the MongoDB URI e.g., mongodb+srv://mongoDbUser:mongoDbUserPass@cluster0.s938843o0.mongodb.net/databaseName?retryWrites=true&w=majority
+Enter the MongoDB URI: mongodb+srv://mongoDbUser:mongoDbUserPass@cluster0.s938843o0.mongodb.net/databaseName?retryWrites=true&w=majority
 ```
 
-Make sure your mongoDB URI is in the format above.
+Make sure your mongoDB URI is in the format below.
 
-The server will start automatically on port 3500.
+```basg
+mongodb+srv://mongoDbUser:mongoDbUserPass@cluster0.s938843o0.mongodb.net/databaseName?retryWrites=true&w=majority
+```
+
+Next, you need to:
+
+```basg
+cd project-name
+```
+
+And run:
+
+```basg
+npm run dev
+```
+
+Your server will run on port 3500.
+You can change the port in server.js at the root folder.
