@@ -1,9 +1,9 @@
-# Create Express App
+# Create Mongo Express
 
 [![npm version](https://badge.fury.io/js/create-mongo-express.svg)](https://badge.fury.io/js/create-mongo-express)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Create Express App is a simple **_CLI_** tool that automates the setup of an Express.js application with MongoDB connection. With this tool, you can quickly generate a fully configured Express.js project, complete with `file` based preconfigured routes and seamless integration with MongoDB.
+Create Mongo Express is a simple and powerful **_CLI_** tool that automates the setup of an Express.js application with MongoDB connection. With this tool, you can quickly generate a fully configured Express.js project, complete with `file` based preconfigured routes and seamless integration with MongoDB.
 
 ## Installation
 
