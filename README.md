@@ -10,7 +10,7 @@ Create Express App is a simple **_CLI_** tool that automates the setup of an Exp
 To install the package, make sure you have Node.js and npm installed on your machine. Then, run the following command:
 
 ```bash
-npx @peslac/create-express-app
+npx create-mongo-express
 ```
 
 ## Getting Started
