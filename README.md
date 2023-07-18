@@ -10,16 +10,16 @@ Create Mongo Express is a simple and powerful **_CLI_** tool that automates the 
 To install the package, make sure you have Node.js and npm installed on your machine. Then, run the following command:
 
 ```bash
-npx create-mongo-express
+npx create-mongo-express project-name
 ```
 
-## Getting Started
+<!-- ## Getting Started
 
 You will be prompted to enter the project name. Provide a suitable name for your Express server:
 
 ```bash
 Enter the project name (e.g., express-server):
-```
+``` -->
 
 Next, you will be asked to provide the MongoDB URI.
 
